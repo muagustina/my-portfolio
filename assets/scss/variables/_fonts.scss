@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Gotham';
+  src: url('../fonts/GOTHAM-MEDIUM_0.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/GOTHAM-MEDIUM_0.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/GOTHAM-MEDIUM_0.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/GOTHAM-MEDIUM_0.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/GOTHAM-MEDIUM_0.svg#bdc473fae2f64b1c45b8886bcff81bae') format('svg'); /* Legacy iOS */
+  font-style:   normal;
+  font-weight:  400;
+}
+
+$primary-font: 'Gotham', sans-serif;
+
+@font-face {
+  font-family: 'Sauna-Italic';
+  src: url('../fonts/Sauna Italic.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Sauna Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Sauna Italic.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/Sauna Italic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Sauna Italic.svg#98bcddc4bc9894d18c7f9a0cfb411bc7') format('svg'); /* Legacy iOS */
+
+  font-style:   italic;
+  font-weight:  400;
+}
+
+$secondary-font: 'sauna-italic', serif;

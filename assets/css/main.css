@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'Gotham';
+  src: url("../fonts/GOTHAM-MEDIUM_0.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/GOTHAM-MEDIUM_0.eot?#iefix") format("embedded-opentype"), url("../fonts/GOTHAM-MEDIUM_0.woff") format("woff"), url("../fonts/GOTHAM-MEDIUM_0.ttf") format("truetype"), url("../fonts/GOTHAM-MEDIUM_0.svg#bdc473fae2f64b1c45b8886bcff81bae") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 400; }
+
+@font-face {
+  font-family: 'Sauna-Italic';
+  src: url("../fonts/Sauna Italic.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/Sauna Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/Sauna Italic.woff") format("woff"), url("../fonts/Sauna Italic.ttf") format("truetype"), url("../fonts/Sauna Italic.svg#98bcddc4bc9894d18c7f9a0cfb411bc7") format("svg");
+  /* Legacy iOS */
+  font-style: italic;
+  font-weight: 400; }
+
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0; }
+
+html {
+  font-size: 16px; }
+
+body {
+  font-family: "Gotham", sans-serif;
+  min-height: 100vh; }
+
+.italic {
+  font-family: "sauna-italic", serif; }
+
+h6 {
+  font-size: 0.625rem; }
+
+h5 {
+  font-size: 1rem; }
+
+h4 {
+  font-size: 1.6rem; }
+
+h3 {
+  font-size: 2.56rem; }
+
+h2 {
+  font-size: 4.096rem; }
+
+h1 {
+  font-size: 6.554em; }
+
+.container {
+  text-align: center;
+  position: relative;
+  height: 100vh; }
+  .container .logo {
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: calc(50% - 76.5px); }
+  .container .title {
+    letter-spacing: .3em;
+    position: absolute;
+    top: 70%;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%); }
+  .container .italic {
+    position: absolute;
+    top: 77%;
+    left: 50%;
+    transform: translateX(-50%); }

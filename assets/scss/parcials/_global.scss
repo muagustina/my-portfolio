@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+
+html {
+  font-size: $rem-size;
+}
+
+body {
+  font-family: $primary-font;
+  min-height: 100vh;
+}
